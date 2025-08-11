@@ -1,18 +1,22 @@
 # Jonathan’s JSON Resume
 
-My resume in the [JSON Resume](https://jsonresume.org/) format. Built and previewed with `resume-cli`.
+My résumé in the [JSON Resume](https://jsonresume.org/) format, built with the modern **[Resumed](https://github.com/JsonResume/resumed)** CLI and rendered with community themes.
 
 ## Quick start
 
 ```bash
-# 1) Install CLI (requires Node.js)
-npm install -g resume-cli
+# 0) Clone and open in Codespaces (or local with Node 18+)
+npm install
 
-# 2) Validate / preview
-resume validate
-resume serve --theme elegant  # change theme as you like
+# 1) (first time) create a starter file — skip if you already have resume.json
+npx resumed init resume.json
 
-# 3) Export
-resume export dist/pedro-resume.pdf --theme elegant
-resume export dist/index.html --theme elegant
-```
+# 2) Validate against the official schema
+npm run validate
+
+# 3) Generate HTML and preview locally
+npm run html
+npm run preview   # opens http://localhost:4000
+
+# 4) Export PDF (uses Puppeteer headless Chromium)
+npm run pdf
