@@ -4,10 +4,10 @@
   "description": "My resume in the [JSON Resume](https://jsonresume.org/) format. Built and previewed with `resume-cli`.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "resumed validate resume.json",
-    "html": "resumed render resume.json -t jsonresume-theme-even -o dist/index.html",
-    "pdf": "resumed export resume.json -t jsonresume-theme-even -o dist/jonathan-resume.pdf"
+    "html": "mkdir -p dist && resumed render resume.json -o dist/index.html",
+    "pdf": "node scripts/export-pdf.mjs",
+    "preview": "npm run html && npx http-server dist -p 4000"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jeas560/jonathan-json-resume#readme",
   "devDependencies": {
     "jsonresume-theme-even": "^0.23.0",
+    "puppeteer": "^24.16.1",
     "resumed": "^6.0.0"
   },
   "dependencies": {
