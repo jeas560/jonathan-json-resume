@@ -25,7 +25,10 @@
       "company": "Artemis SmartData",
       "position": "Lead Data Engineer",
       "startDate": "2024",
+<<<<<<< HEAD
       "endDate": "",
+=======
+>>>>>>> 3a0c3b9 (Adicionar currículo em formato JSON)
       "summary": "Led Artemis Data’s analytics team, building Apache Spark pipelines on Amazon S3 and defining data-modeling standards to deliver scalable, cost-efficient, and reliable datasets for product, BI, and ML use cases."
     }
   ],
