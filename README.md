@@ -1,6 +1,6 @@
 # Jonathan’s JSON Resume
 
-My résumé in the [JSON Resume](https://jsonresume.org/) format, built with the modern **[Resumed](https://github.com/JsonResume/resumed)** CLI and rendered with community themes.
+My résumé in the [JSON Resume](https://jsonresume.org/) format, built with the modern **[Resumed](https://github.com/rbardini/resumed)** CLI and rendered with community themes.
 
 ## Quick start
 
