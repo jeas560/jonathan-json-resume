@@ -1,0 +1,41 @@
+{
+  "basics": {
+    "name": "Jonathan E. A. Silva",
+    "label": "Full-Stack Data Engineer & ML Specialist",
+    "email": "jeas560@gmail.com",
+    "location": {
+      "city": "Natal/RN",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "https://www.linkedin.com/in/jonathan-esteban-arroyo-silva",
+        "url": "https://linkedin.com/in/https://www.linkedin.com/in/jonathan-esteban-arroyo-silva"
+      },
+      {
+        "network": "GitHub",
+        "username": "jeas560",
+        "url": "https://github.com/jeas560"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Artemis SmartData",
+      "position": "Lead Data Engineer",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "Led Artemis Data’s analytics team, building Apache Spark pipelines on Amazon S3 and defining data-modeling standards to deliver scalable, cost-efficient, and reliable datasets for product, BI, and ML use cases."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal de Juiz de Fora",
+      "area": "Computational Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2016",
+      "endDate": "2020"
+    }
+  ]
+}
