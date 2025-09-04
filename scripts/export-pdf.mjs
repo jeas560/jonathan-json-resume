@@ -12,7 +12,10 @@ await fs.access(htmlPath).catch(() => {
   throw new Error("dist/index.html not found. Run `npm run html` first.");
 });
 
-const browser = await puppeteer.launch();
+//const browser = await puppeteer.launch();
+const browser = await puppeteer.launch({
+  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+});
 const page = await browser.newPage();
 await page.goto(pathToFileURL(htmlPath).href, { waitUntil: "networkidle0" });
 await page.pdf({
