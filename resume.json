@@ -26,6 +26,38 @@
       "position": "Lead Data Engineer",
       "startDate": "2024-04-01",
       "summary": "Led Artemis Data’s analytics team, building Apache Spark pipelines on Amazon S3 and defining data-modeling standards to deliver scalable, cost-efficient, and reliable datasets for product, BI, and ML use cases."
+    },
+    {
+      "name": "Afya iClinic",
+      "location": "Juiz de Fora, MG",
+      "position": "ETL - Data Engineer",
+      "startDate": "2022-06-01",
+      "endDate": "2023-08-01",
+      "summary": "Analyze and extract the information (schedules, medical records, and patient records) of health professionals who want to migrate their data to the platform; Develop and update data extraction scripts from the most diverse backup formats (database, spreadsheets, folders); Develop, review, document and update jupyter notebooks for data conversion; Load the converted data to the cloud and make it available on the platform; To support the CX team with the demands of health professionals and to know how to communicate the possible problems, during the migration process, for example, the formatting of the visual acuity table is different from what the health professional is accustomed to."
+    },
+    {
+      "name": "Universidade Federal de São João del-Rei",
+      "location": "São João del-Rei, MG",
+      "position": "Temporary Lecturer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-06-01",
+      "summary": "Lecture the disciplines of Numerical Methods and Computer Programming for the engineering classes of the university; Produce the didactic material, guide students in research works and evaluate their performance; Develop jupyter notebooks for the discipline of Introduction to Numerical Analysis, and scripts in portugol for the discipline of Computer Programming"
+    },
+    {
+      "name": "Gröwnt",
+      "location": "Barueri, SP",
+      "position": "Scientific Adviser",
+      "startDate": "2020-06-01",
+      "endDate": "2020-12-01",
+      "summary": "Advise and advise on technical, scientific and regulatory issues for companies, government organizations or other entities focused on incentive management, such as R&D/R&D tax benefits and R&D financing; Be up to date with the latest trends and scientific discoveries in the area of activity and be able to communicate clearly and accurately technical information to a lay audience."
+    },
+    {
+      "name": "LAMEMO- COPPE/UFRJ",
+      "location": "Rio de Janeiro, RJ",
+      "position": "Post-doctoral Researcher",
+      "startDate": "2018-05-01",
+      "endDate": "2020-06-01",
+      "summary": "Conduct research in the area of computational modeling, specifically involving the areas of: finite element methods, time-step methods, bioheat modeling of breast cancer; Perform numerical experiments involving the new techniques developed, analyze the results and compare with the most used methods of today; Collaborate with other researchers in the laboratory; Present the research in conferences and publication of the results in scientific journals; Python and Fortran codes and scientific articles in Latex were developed."
     }
   ],
   "education": [
@@ -34,8 +66,24 @@
       "url": "https://www2.ufjf.br/ufjf/",
       "area": "Computational Engineering",
       "studyType": "D.Sc.",
-      "startDate": "2016-03-01",
-      "endDate": "2020-03-15"
+      "startDate": "2014-03-01",
+      "endDate": "2018-03-15"
+    },
+    {
+      "institution": "Universidade Federal de Juiz de Fora",
+      "url": "https://www2.ufjf.br/ufjf/",
+      "area": "Computational Engineering",
+      "studyType": "Ms.Sc.",
+      "startDate": "2012-03-01",
+      "endDate": "2014-03-15"
+    },
+    {
+      "institution": "Universidade Federal do Espírito Santo",
+      "url": "https://www.ufes.br/",
+      "area": "Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2008-03-01",
+      "endDate": "2011-12-15"
     }
   ],
   "skills": [
@@ -49,6 +97,14 @@
     {
       "language": "English",
       "fluency": "Advanced"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Fluent"
     }
   ],
   "meta": { "theme": "jsonresume-theme-even" }

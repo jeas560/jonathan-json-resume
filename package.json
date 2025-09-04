@@ -4,6 +4,7 @@
   "description": "My resume in the [JSON Resume](https://jsonresume.org/) format. Built and previewed with `resume-cli`.",
   "main": "index.js",
   "scripts": {
+    "init": "resumed init resume.json",
     "validate": "resumed validate resume.json",
     "html": "mkdir -p dist && resumed render resume.json -o dist/index.html",
     "pdf": "node scripts/export-pdf.mjs",
